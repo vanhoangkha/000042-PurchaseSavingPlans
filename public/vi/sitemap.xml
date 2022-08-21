@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>/vi/1-what-is-savings-plan/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/1-what-is-savings-plan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/1-what-is-savings-plan/"
-                />
-  </url>
-  
   <url>
     <loc>/vi/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+    <lastmod>2020-04-18T00:38:32+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,9 +14,43 @@
                 hreflang="vi"
                 href="/vi/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/vi/1-what-is-savings-plan/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/1-what-is-savings-plan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/1-what-is-savings-plan/"
+                />
+  </url><url>
+    <loc>/vi/4-reserved-instance/4.1-reserved-instance-type/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/4-reserved-instance/4.1-reserved-instance-type/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/4-reserved-instance/4.1-reserved-instance-type/"
+                />
+  </url><url>
+    <loc>/vi/1-what-is-savings-plan/1.1-saving-plan-types/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/1-what-is-savings-plan/1.1-saving-plan-types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/1-what-is-savings-plan/1.1-saving-plan-types/"
+                />
+  </url><url>
     <loc>/vi/2-savings-plan-recommendation/</loc>
     <lastmod>2020-04-18T00:38:32+07:00</lastmod>
     <xhtml:link
@@ -45,39 +63,67 @@
                 hreflang="vi"
                 href="/vi/2-savings-plan-recommendation/"
                 />
-  </url>
-  
-  <url>
-    <loc>/vi/3-reserved-instance/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+  </url><url>
+    <loc>/vi/4-reserved-instance/4.2-buy-reserved-instance/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-reserved-instance/"
+                href="/4-reserved-instance/4.2-buy-reserved-instance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-reserved-instance/"
+                href="/vi/4-reserved-instance/4.2-buy-reserved-instance/"
                 />
-  </url>
-  
-  <url>
-    <loc>/vi/4-reserved-db-instance/</loc>
-    <lastmod>1970-01-01T07:33:40+07:00</lastmod>
+  </url><url>
+    <loc>/vi/1-what-is-savings-plan/1.2-saving-and-reserved/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-reserved-db-instance/"
+                href="/1-what-is-savings-plan/1.2-saving-and-reserved/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-reserved-db-instance/"
+                href="/vi/1-what-is-savings-plan/1.2-saving-and-reserved/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>/vi/3-purchase-saving-plan/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/3-purchase-saving-plan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/3-purchase-saving-plan/"
+                />
+  </url><url>
+    <loc>/vi/4-reserved-instance/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/4-reserved-instance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/4-reserved-instance/"
+                />
+  </url><url>
+    <loc>/vi/5-reserved-db-instance/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/5-reserved-db-instance/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/5-reserved-db-instance/"
+                />
+  </url><url>
     <loc>/vi/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -89,9 +135,7 @@
                 hreflang="vi"
                 href="/vi/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/vi/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -104,5 +148,4 @@
                 href="/vi/tags/"
                 />
   </url>
-  
 </urlset>

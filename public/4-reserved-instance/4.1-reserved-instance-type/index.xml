@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reserved Instance type on AWS Cloudformation Workshop</title>
+    <link>/4-reserved-instance/4.1-reserved-instance-type/</link>
+    <description>Recent content in Reserved Instance type on AWS Cloudformation Workshop</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/4-reserved-instance/4.1-reserved-instance-type/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

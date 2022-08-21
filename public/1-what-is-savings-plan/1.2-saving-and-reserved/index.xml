@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Savings Plan and Reserved Instances on AWS Cloudformation Workshop</title>
+    <link>/1-what-is-savings-plan/1.2-saving-and-reserved/</link>
+    <description>Recent content in Savings Plan and Reserved Instances on AWS Cloudformation Workshop</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/1-what-is-savings-plan/1.2-saving-and-reserved/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

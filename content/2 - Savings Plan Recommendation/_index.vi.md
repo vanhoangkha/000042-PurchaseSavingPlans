@@ -19,9 +19,20 @@ Bạn có thể sử dụng những đề xuất này để tối ưu mức cam 
 
 - Ở thanh điều hướng bến trái, bên dưới **Savings Plan**, chọn **Recommendation**
 
+![Saving Plans](/images/SP/001.png?featherlight=false&width=90pc)
+
 Bảng Recommendation Savings Plan hiển thị chi tiết các lựa chọn của gói Savings Plan. Bạn cũng có thể xem được thông tin Savings Plan Recommmendation thông qua [AWS Cost Explorer API](https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_GetSavingsPlansPurchaseRecommendation.html)
 
-### Tùy chỉnh SP Recommendation
+
+![Saving Plans](/images/SP/002.png?featherlight=false&width=90pc)
+
+
+{{% notice info %}}
+Lưu ý : Các bước dưới đây chỉ thực hiện khi bạn muốn mua Savings Plan dựa theo Recommendations của hệ thống. Để tìm hiểu cách  mua Savings Plan tuỳ chỉnh bạn có thể chuyển sang Bước 3.
+{{% /notice %}}
+
+
+#### Tùy chỉnh SP Recommendation
 Các thông tin tùy chỉnh gồm: 
 - **Savings Plan Type** – loại Savings Plan. Có thể chọn Compute hoặc Amazon EC2 Instance.
 
@@ -41,7 +52,7 @@ Cụ thể các bước thực hiện tùy chỉnh SP Recommmendation như sau:
 - (Chỉ áp dụng với Management Account) Bấm vào tab **Linked Accounts**, chọn Account IDs mà bạn muốn Account đó nhìn thấy đề xuất SP.
 - (Optional) Để thanh toán, bấm vào check box bên cạnh gói SP mong muốn, rồi chọn **Add Savings Plans to cart**.
 
-### Đánh giá Savings Plan được đề xuất trên Recommendations page
+#### Đánh giá Savings Plan được đề xuất trên Recommendations page
 Một số trường hợp khi truy cập Recommendations page không thấy hiển thị bất cứ đề xuất nào cho Savings Plan. Điều đó bởi 1 trong 2 nguyên nhân sau đây: 
 - Thứ nhất: có thể do hiện tại AWS không tính toán được bất cứ đều xuất nào khả dụng cho Savings Plan. 
 
@@ -59,7 +70,7 @@ Các đề xuất này được tính toán tự động giúp bạn dễ dàng 
 - Để hoàn thành thanh toán, bấm vào **Cart** ở góc trái.
 - Tại trang Cart, review lại order rồi bấm **Submit order**.
 
-### Thanh toán Savings Plan trên trang Purchase Savings Plans
+#### Thanh toán Savings Plan trên trang Purchase Savings Plans
 Để thanh toán **Savings Plan cho EC2 Instance**: 
 - Truy cập AWS Cost Management console tại địa chỉ https://console.aws.amazon.com/cost-management/home
 
@@ -86,7 +97,7 @@ Các đề xuất này được tính toán tự động giúp bạn dễ dàng 
 - Chọn **Add to cart**.
 - Ở trang giỏ hàng Cart page, review lại order, rồi chọn **Submit order**.
 
-### Đưa SP vào danh sách chờ trong trang Giỏ hàng Cart 
+#### Đưa SP vào danh sách chờ trong trang Giỏ hàng Cart 
 Bạn có thể đưa vào danh sách chờ hoặc lên lịch cho việc thanh toán Savings Plan. Ngày kích hoạt gói tiết kiệm có thể cụ thể chính xác đến từng giây. Mọi khoản phí trả trước hoặc phí định kỳ chỉ được tính khi SP trong hàng đợi được kích hoạt vào ngày đã chọn.  
 Bạn có thể hủy hoặc xóa SP trong danh sách chờ này bất kỳ lúc nào trước ngày bắt đầu.
 
@@ -101,7 +112,7 @@ Bạn có thể hủy hoặc xóa SP trong danh sách chờ này bất kỳ lúc
 - Bấm **Confirm**.
 - Bấm **Submit order**.
 
-### Review và hoàn tất thanh toán trên trang Giỏ hàng Cart
+#### Review và hoàn tất thanh toán trên trang Giỏ hàng Cart
 Giỏ hàng Savings Plans sẽ giữ những cam kết cho tới khi bạn thực hiện việc thanh toán.  
 Để thực hiện review và hoàn tất thanh toán từ trang Giỏ hàng Cart, lần lượt làm các bước sau đây: 
 - Truy cập AWS Cost Management console tại địa chỉ https://console.aws.amazon.com/cost-management/home

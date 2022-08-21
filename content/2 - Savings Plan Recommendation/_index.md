@@ -6,124 +6,69 @@ chapter = false
 pre = "<b>2. </b>"
 +++
 
-Để hỗ trợ người dùng tiết kiệm tối đa chi phí khi sử dụng dịch vụ, AWS cung cấp các đề xuất gọi là **Savings Plan Recommendation** dựa trên quá khứ sử dụng dịch vụ của bạn.  
-Bạn có thể sử dụng những đề xuất này để tối ưu mức cam kết sử dụng dịch vụ giúp giảm bớt chi phí. 
-- Monthly On-Demand Spend: Chi tiêu ước tính theo dạng On-Demand dựa trên việc sử dụng trong khoảng thời gian được chọn. Nó bao gồm cả những khoản thanh toán cho Gói Tiết kiệm đang hoạt động tại thời điểm tính.  
-    Giá trị này diễn tả Chi tiêu cơ bản trong một tháng sử dụng theo kiểu On-Demand, dựa trên quá khứ sử dụng dịch vụ và những cam kết Savings Plan hiện tại. 
+To help users save maximum costs when using the service, AWS provides recommendations called **Savings Plan Recommendations** based on your past use of the service.
+You can use these recommendations to optimize your service commitment to reduce costs.
+- Monthly On-Demand Spend: Estimated On-Demand Spend based on usage during the selected period. It includes payments for Savings Plans that are active at the time of calculation.
+    This value represents the Basic Spend for a month of On-Demand usage, based on past service usage and current Savings Plan commitments.
 
-- Estimated Monthly Spend: chi tiêu dự kiến dựa theo những cam kết sử dụng dịch vụ theo đề xuất của Savings Plan. Giá trị này bao gồm những cam kết đã được đề xuất và bất cứ mức sử dụng dự kiến nào để duy trì hoạt động của On-Demand Instance thay đổi từng giờ trong quá trình sử dụng. 
-- Estimated Monthly Savings: số tiền tiết kiệm ròng hàng tháng dựa trên việc sử dụng trong khoảng thời gian đã chọn khi bạn mua các gói Savings Plan được đề xuất.
+- Estimated Monthly Spend: estimated spending based on commitments to use the service as suggested by Savings Plan. This value includes the recommended commits and any expected usage to keep the On-Demand Instance up and running which varies hour to hour during usage.
+- Estimated Monthly Savings: net monthly savings based on usage during the selected period when you purchase the recommended Savings Plans.
 
-Để truy cập Savings Plan Recommendation, 
-- Đăng nhập vào **AWS Management Console** rồi mở **AWS Cost Management console** tại địa chỉ https://console.aws.amazon.com/cost-management/home
+To access the Savings Plan Recommendation,
+- Log in to **AWS Management Console** and then open **AWS Cost Management console** at https://console.aws.amazon.com/cost-management/home
 
-- Ở thanh điều hướng bến trái, bên dưới **Savings Plan**, chọn **Recommendation**
+- In the left navigation bar, under **Savings Plan**, select **Recommendation**
 
-Bảng Recommendation Savings Plan hiển thị chi tiết các lựa chọn của gói Savings Plan. Bạn cũng có thể xem được thông tin Savings Plan Recommmendation thông qua [AWS Cost Explorer API](https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_GetSavingsPlansPurchaseRecommendation.html)
+![Saving Plans](/images/SP/001.png?featherlight=false&width=90pc)
 
-### Tùy chỉnh SP Recommendation
-Các thông tin tùy chỉnh gồm: 
-- **Savings Plan Type** – loại Savings Plan. Có thể chọn Compute hoặc Amazon EC2 Instance.
+The Recommendation Savings Plan table shows the details of the Savings Plan options. You can also view Savings Plan Recommmendation information through the AWS Cost Explorer API.
 
-- **Savings Plan term** – kì hạn cam kết tính theo năm. Chọn 1-year hoặc 3-years.
-- **Payment option** – các lựa chọn thanh toán cho gói Savings Plan. Có thể là Trả hết trước toàn bộ (All-Upfront), Trả trước một phần(Partial upfront), hoặc Trả sau (No upfront)
-- **Based on the past** – số ngày trong quá khứ được sử dụng để tính toán đề xuất gói tiết kiệm hay không
-- **Filter by** – lựa chọn xác định member account nào được xem các gói Savings Plan. 
 
-Cụ thể các bước thực hiện tùy chỉnh SP Recommmendation như sau: 
-- Truy cập AWS Cost Management console tại địa chỉ https://console.aws.amazon.com/cost-management/home
+![Saving Plans](/images/SP/002.png?featherlight=false&width=90pc)
 
-- Ở thanh điều hướng bên trái, bên dưới **Savings Plans**, chọn **Recommendations**.
-- Phần **Savings Plan type**, chọn **EC2 Instance** hoặc **Compute**.
-- Chọn kỳ hạn trong phần **Savings Plan term**.
-- Chọn kiểu thanh toán trong phần **Payment option**.
-- Nhập số ngày trong phần **Based on the past** để dựa vào đó tính toán đề xuất SP 
-- (Chỉ áp dụng với Management Account) Bấm vào tab **Linked Accounts**, chọn Account IDs mà bạn muốn Account đó nhìn thấy đề xuất SP.
-- (Optional) Để thanh toán, bấm vào check box bên cạnh gói SP mong muốn, rồi chọn **Add Savings Plans to cart**.
 
-### Đánh giá Savings Plan được đề xuất trên Recommendations page
-Một số trường hợp khi truy cập Recommendations page không thấy hiển thị bất cứ đề xuất nào cho Savings Plan. Điều đó bởi 1 trong 2 nguyên nhân sau đây: 
-- Thứ nhất: có thể do hiện tại AWS không tính toán được bất cứ đều xuất nào khả dụng cho Savings Plan. 
+{{% notice info %}}
+Note: The steps below are only done when you want to buy Savings Plan based on the System's Recommendations. To learn how to purchase a customized Savings Plan you can skip to Step 3.
+{{% /notice %}}
 
-- Thứ hai: do chi tiêu cho việc sử dụng dịch vụ dạng On-Demand quá thấp, dưới 0.1$/giờ trong khoảng thời gian được chọn. 
 
-Các đề xuất này được tính toán tự động giúp bạn dễ dàng cần nhắc để mua các Gói Savings Plan tối ưu và bạn có thể thêm trực tiếp các Gói Savings Plan được đề xuất cho Account của mình vào giỏ hàng.
+#### Customize SP Recommendation
+Custom information includes:
+- **Savings Plan Type** – Savings Plan Type. You can choose either Compute or Amazon EC2 Instance.
 
-Để bắt đầu thanh toán cho Savings Plans được đề xuất trên Recommendations page, thực hiện các bước sau đây: 
-- Sign in vào AWS Management Console và truy cập AWS Cost Management console tại địa chỉ https://console.aws.amazon.com/cost-management/home
+- **Savings Plan term** – commitment term in years. Choose 1-year or 3-years.
+- **Payment option** – payment options for Savings Plan. It can be All-Upfront, Partial upfront, or No upfront.
+- **Based on the past** – the number of days in the past is used to calculate the savings proposal or not
+- **Filter by** – choose to determine which member account can view Savings Plan packages.
 
-- Ở khung điều hướng bên trái, dưới Savings Plans, chọn Recommendations.
-- Trong phần tùy chọn của **Recommendation**, chọn **Savings Plans type**, **Savings Plans term**, **Payment option**, và lookback period.
-- Trong bảng **Recommended Savings Plan**, bấm vào check boxes bên cạnh the Savings Plans mà bạn muốn thanh toán.
-- Chọn **Add selected Savings Plan(s) to cart**.
-- Để hoàn thành thanh toán, bấm vào **Cart** ở góc trái.
-- Tại trang Cart, review lại order rồi bấm **Submit order**.
+Specifically, the steps to customize SP Recommmendation are as follows:
+- Access the AWS Cost Management console at https://console.aws.amazon.com/cost-management/home
 
-### Thanh toán Savings Plan trên trang Purchase Savings Plans
-Để thanh toán **Savings Plan cho EC2 Instance**: 
-- Truy cập AWS Cost Management console tại địa chỉ https://console.aws.amazon.com/cost-management/home
+- In the left navigation bar, under **Savings Plans**, select **Recommendations**.
+- In the **Savings Plan type** section, select **EC2 Instance** or **Compute**.
+- Select the term in the **Savings Plan term** section.
+- Select the payment type in the **Payment option** section.
+- Enter the number of days in the **Based on the past** section to calculate the SP recommendation based on that
+- (Only applicable to Management Accounts) Click the **Linked Accounts** tab, select the Account IDs you want that Account to see the SP offer.
+- (Optional) To pay, click the check box next to the desired SP package, then select **Add Savings Plans to cart**.
 
-- Ở khung điều hướng bên trái, dưới **Savings Plans**, chọn **Purchase Savings Plans**.
-- Dưới **Savings Plans type**, chọn **EC2 Instance**.
-- Lựa chọn Kỳ hạn **Term**, khu vực **Region**, rồi chọn họ Instance hay **Instance Family**.
-- Trong phần cam kết thời gian **Hourly commitment**, nhập thời gian chạy SP
-- Chọn kiểu thanh toán **Payment option**.
-- Nếu chọn kiểu thanh toán **Partial Upfront** thì nhập số tiền sẽ trả trước cho SP. 
-- (Optional) Để đưa Savings Plan vào danh sách đợi để chạy gói Tiết kiệm trong tương lai, thực hiện thiết lập the **Start date**.
-- Chọn **Add to cart**.
-- Ở trang giỏ hàng Cart page, review lại order, rồi chọn Submit order.
+#### Recommended Savings Plan review on Recommendations page
+Some cases when accessing the Recommendations page do not show any recommendations for Savings Plan. That's for one of two reasons:
+- Firstly: it may be because AWS is not currently calculating any available outputs for Savings Plan.
 
-Để thanh toán **Savings Plan cho Compute**:
-- Truy cập AWS Cost Management console tại địa chỉ https://console.aws.amazon.com/cost-management/home
+- Second: because the spending on using On-Demand service is too low, less than 0.1$/hour in the selected time period.
 
-- Ở khung điều hướng bên trái, dưới **Savings Plans**, chọn **Purchase Savings Plans**.
-- Dưới **Savings Plans type**, chọn **Compute**.
-- Chọn kỳ hạn **Term**.
-- Trong phần **Hourly commitment**, nhập vào thời gian chạy SP.
-- Chọn kiểu thanh toán **Payment option**.
-- Nếu chọn thanh toán kiểu **Partial Upfront**, nhập số tiền sẽ trả trước cho SP.
-- (Optional) Để đưa Savings Plan vào danh sách đợi để chạy gói Tiết kiệm trong tương lai, thực hiện thiết lập the **Start date**.
-- Chọn **Add to cart**.
-- Ở trang giỏ hàng Cart page, review lại order, rồi chọn **Submit order**.
+These recommendations are automatically calculated making it easy for you to need reminders to purchase optimal Savings Plans, and you can add the recommended Savings Plans for your Account directly to your cart.
 
-### Đưa SP vào danh sách chờ trong trang Giỏ hàng Cart 
-Bạn có thể đưa vào danh sách chờ hoặc lên lịch cho việc thanh toán Savings Plan. Ngày kích hoạt gói tiết kiệm có thể cụ thể chính xác đến từng giây. Mọi khoản phí trả trước hoặc phí định kỳ chỉ được tính khi SP trong hàng đợi được kích hoạt vào ngày đã chọn.  
-Bạn có thể hủy hoặc xóa SP trong danh sách chờ này bất kỳ lúc nào trước ngày bắt đầu.
+To start paying for the Savings Plans recommended on the Recommendations page, take the following steps:
+- Sign in to the AWS Management Console and access the AWS Cost Management console at https://console.aws.amazon.com/cost-management/home
 
-Để đưa SP vào danh sách chờ thanh toán, ta thực hiện các bước sau đây: 
-- Truy cập AWS Cost Management console tại địa chỉ https://console.aws.amazon.com/cost-management/home
+- In the left navigation pane, under Savings Plans, select Recommendations.
+- In the options section of **Recommendation**, select **Savings Plans type**, **Savings Plans term**, **Payment option**, and lookback period.
+- In the **Recommended Savings Plan** table, click the check boxes next to the Savings Plans that you want to pay for.
+- Select **Add selected Savings Plan(s) to cart**.
+- To complete the payment, click **Cart** in the left corner.
+- At the Cart page, review the order and then click **Submit order**.
 
-- Thêm Savings Plans từ trang **Purchase Savings Plans** hoặc trang **Recommendations**.
-- Từ khung điều hướng bên trái, bên dưới **Savings Plans**, chọn **Cart**
-- Chọn **Savings Plans**.
-- Chọn **Set start date**.
-- Chọn Ngày và Thời điểm chạy SP.
-- Bấm **Confirm**.
-- Bấm **Submit order**.
-
-### Review và hoàn tất thanh toán trên trang Giỏ hàng Cart
-Giỏ hàng Savings Plans sẽ giữ những cam kết cho tới khi bạn thực hiện việc thanh toán.  
-Để thực hiện review và hoàn tất thanh toán từ trang Giỏ hàng Cart, lần lượt làm các bước sau đây: 
-- Truy cập AWS Cost Management console tại địa chỉ https://console.aws.amazon.com/cost-management/home
-
-- Ở khung điều hướng bên phải, dưới **Savings Plans**, chọn **Cart**.
-- Review nội dung theo các thông tin dưới đây:
-	- **Type**: loại Savings Plan.
-
-	- **Term**: kỳ hạn cam kết tính theo năm. Chọn kỳ hạn 1-year hoặc 3-years.
-	- **Region**: (chỉ phù hợp với loại EC2 Instance Savings Plans) loại Region mà bạn cam kết sử dụng. 
-	- **Instance Family**: họ instance (for example, M5, C5, R5, C5d, etc.) mà bạn cam kết sử dụng.
-	- **Purchase option**: các lựa chọn thanh toán. Các lựa chọn gồm All Upfront, Partial Upfront, hoặc No Upfront.
-	- **Start date**: xác định ngày giờ thanh toán cam kết. Mặc định ngày thanh toán là ngay tại thời điểm khởi tạo order (Now).
-	- **Commitment**: cam kết sử dụng tính theo giờ mà liên kết với gói Savings Plan và kỳ hạn.
-	- **Upfront payment**: lựa chọn thanh toán trước một phần hoặc tất cả đơn hàng dựa theo lựa chọn thanh toán ở trên. 
-	- **Monthly payment**: chi phí phải trả hàng tháng cho gói Savings Plans.
-	- **Total cost**: tổng chi phí cho mức cam kết gói Savings Plan. Nó bao gồm chi phí trả trước và thanh toán định kỳ hàng tháng trong suốt kỳ hạn sử dụng. 
-- Review nội dung trong phần the Summary:
-	- **Total Commitment**: tổng chi phí cho tất cả các gói Savings Plans hiện tại trong rỏ hàng, bất kể ngày bắt đầu hoặc cách thanh toán như thế nào.
-
-	- **Total upfront payment due now**: Tổng số tiền phải trả trước một phần (Upfront payment) cho gói Savings Plan với ngày bắt đầu được thiết lập Now.
-- Xóa bỏ một Savings Plan khỏi Giỏ hàng bằng cách chọn từng item rồi bấm **Remove from cart**.
-- Để bắt đầu lại từ đầu, và xóa bỏ toàn bộ item có trong giỏ hàng bấm **Clear cart**.
-- Để thêm một cam kết mới, bấm chọn **Add another Savings Plan**.
-- Thực hiện thanh toán, bấm **Submit order**.
+#### Pay Savings Plan on Purchase Savings Plans page
+To pay **Saving
