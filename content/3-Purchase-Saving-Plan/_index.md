@@ -1,5 +1,5 @@
 +++
-title = "Mua Savings Plans"
+title = "purchase Savings Plans"
 weight = 3
 chapter = false
 pre = "<b>3. </b>"
@@ -7,9 +7,9 @@ pre = "<b>3. </b>"
 
 #### Purchase Savings Plan.
 
-Trong bước này chúng ta sẽ thử mua một gói Savings Plan tuỳ chỉnh mà  không thông qua Recommendations. Bạn sẽ không thể huỷ gói Savings Plan sau khi mua nếu chưa hết hạn. Trước khi thực hiện mua Savings Plan, bạn và đội ngũ của mình nên tính toán kỹ để có thể tận dụng tốt đc gói Savings Plan mình sẽ mua.
+In this step we will try to purchase a custom Savings Plan without going through Recommendations. You will not be able to cancel the Savings Plan after purchase if it has not expired. Before purchaseing Savings Plan, you and your team should calculate carefully so that you can make good use of the Savings Plan you will purchase.
 
-1. Tại trang Recommendations ở bước 2, click vào nút **Overview** ở menu bên trái để chuyển sang trang tổng quan, thể hiện thông tin các gói Savings Plan bạn đã mua.
+1. At the Recommendations page in step 2, click the **Overview** button on the left menu to switch to the overview page, showing the information of the Savings Plan packages you have purchased.
 
 ![Saving Plans](/images/SP/003.png?featherlight=false&width=90pc)
 
@@ -17,40 +17,40 @@ Trong bước này chúng ta sẽ thử mua một gói Savings Plan tuỳ chỉn
 
 ![Saving Plans](/images/SP/004.png?featherlight=false&width=90pc)
 
-3. Ở đây chúng ta có thể chọn tuỳ chọn Savings Plan type, Payment Option như tôi đã giới thiệu ở bước 1.
-  + Click chọn **Compute Savings Plans**.
-  + Click chọn **1-Year**.
-  + Tại ô **Hourly commitment** điền **1$**.
-  + Click chọn **No Upfront**.
+3. Here we can choose the option Savings Plan type, Payment Option as I introduced in step 1.
+  + Click **Compute Savings Plans**.
+  + Click to select **1-Year**.
+  + In the **Hourly commitment** box, enter **1$**.
+  + Click on **No Upfront**.
 
 ![Saving Plans](/images/SP/005.png?featherlight=false&width=90pc)
 
-4. Tại mục **Start date**, ở đây chúng ta có thể chọn thời điểm chúng ta bắt đầu gói Savings Plan của mình. Vì bài này chỉ mang tính hướng dẫn sử dụng, chúng ta sẽ đặt một ngày Start date khá xa so với hiện tại.
-  + Click vào mục **Start date - optional**.
-  + Điền ngày **2024/01/01** và thời gian **12:00:00**
+4. In the **Start date** section, here we can choose when we start our Savings Plan. Since this article is for guidance only, we will set a Start date quite far away from the present.
+  + Click on the item **Start date - optional**.
+  + Enter date **2024/01/01** and time **12:00:00**
   + Click **Add to cart**.
   
 ![Saving Plans](/images/SP/006.png?featherlight=false&width=90pc)
 
-5. Tại bước này chúng ta có thể **Submit order** nếu thực hiện mua thật hoặc **Remove form cart** để có thể mua lại một gói khác.
-  + Click **Submit order** để thử thực hiện mua.
+5. At this step we can **Submit order** if we make a real purchase or **Remove form cart** to be able to purchase another package.
+  + Click **Submit order** to try to make a purchase.
   
 ![Saving Plans](/images/SP/007.png?featherlight=false&width=90pc)
 
-6. Order của bạn đã được submit thành công.
-   + Click **X** để đóng thông báo.
+6. Your order has been submitted successfully.
+   + Click **X** to close the notification.
 
 ![Saving Plans](/images/SP/008.png?featherlight=false&width=90pc)
 
-7. Tiếp theo, vì đây là bài hướng dẫn nên chúng ta sẽ thực hiện Delete gói Savings Plan chúng ta vừa submit.
-  + Click Inventory để xem gói Savings Plan chúng ta vừa mua.
-  + Click chọn gói Savings Plan đang ở trạng thái **Queued**.
+7. Next, since this is a tutorial, we will delete the Savings Plan we just submitted.
+  + Click Inventory to see the Savings Plan we just bought.
+  + Click on the Savings Plan package that is in **Queued** status.
   + Click **Actions** -> **Delete queued Savings Plan**.
 
 ![Saving Plans](/images/SP/009.png?featherlight=false&width=90pc)
 
-8. Click **Delete** để xác nhận.
+8. Click **Delete** to confirm.
 
 ![Saving Plans](/images/SP/010.png?featherlight=false&width=90pc)
 
-Vậy là bạn đã hoàn thành các bước mua thử một gói Savings Plan. Bạn có thể tiếp tục đọc thêm tham khảo về Reserved Instance và Reserved DB Instances ở Mục 4 và Mục 5.
+So you have completed the steps to purchase a trial plan of Savings Plan. You can continue reading the Reserved Instance and Reserved DB Instances references in Sections 4 and 5.
