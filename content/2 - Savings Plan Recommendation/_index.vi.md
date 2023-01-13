@@ -19,12 +19,18 @@ Bạn có thể sử dụng những đề xuất này để tối ưu mức cam 
 
 - Ở thanh điều hướng bến trái, bên dưới **Savings Plan**, chọn **Recommendation**
 
-![Saving Plans](/images/SP/001.png?featherlight=false&width=90pc)
+![Saving Plans](/images/1/0001.png?featherlight=false&width=90pc)
 
 Bảng Recommendation Savings Plan hiển thị chi tiết các lựa chọn của gói Savings Plan. Bạn cũng có thể xem được thông tin Savings Plan Recommmendation thông qua [AWS Cost Explorer API](https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_GetSavingsPlansPurchaseRecommendation.html)
 
+- Đối với **Partial upfront**
 
-![Saving Plans](/images/SP/002.png?featherlight=false&width=90pc)
+![Saving Plans](/images/1/0002.png?featherlight=false&width=90pc)
+
+- Đối với **No upfront**
+
+![Saving Plans](/images/1/0003.png?featherlight=false&width=90pc)
+
 
 
 {{% notice info %}}

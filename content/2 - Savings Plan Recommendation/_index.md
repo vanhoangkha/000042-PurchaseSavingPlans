@@ -19,12 +19,17 @@ To access the Savings Plan Recommendation,
 
 - In the left navigation bar, under **Savings Plan**, select **Recommendation**
 
-![Saving Plans](/images/SP/001.png?featherlight=false&width=90pc)
+![Saving Plans](/images/1/0001.png?featherlight=false&width=90pc)
 
 The Recommendation Savings Plan table shows the details of the Savings Plan options. You can also view Savings Plan Recommmendation information through the AWS Cost Explorer API.
 
+- For **Partial upfront**
 
-![Saving Plans](/images/SP/002.png?featherlight=false&width=90pc)
+![Saving Plans](/images/1/0002.png?featherlight=false&width=90pc)
+
+- For **No upfront**
+
+![Saving Plans](/images/1/0003.png?featherlight=false&width=90pc)
 
 
 {{% notice info %}}
