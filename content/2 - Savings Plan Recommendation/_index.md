@@ -25,11 +25,11 @@ The Recommendation Savings Plan table shows the details of the Savings Plan opti
 
 - For **Partial upfront**
 
-![Saving Plans](/images/1/0002.png?featherlight=false&width=90pc)
+![Saving Plans](/images/1/0003.png?featherlight=false&width=90pc)
 
 - For **No upfront**
 
-![Saving Plans](/images/1/0003.png?featherlight=false&width=90pc)
+![Saving Plans](/images/1/0002.png?featherlight=false&width=90pc)
 
 
 {{% notice info %}}

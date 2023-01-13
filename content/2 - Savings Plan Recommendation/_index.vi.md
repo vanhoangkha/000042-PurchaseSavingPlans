@@ -25,11 +25,11 @@ Bảng Recommendation Savings Plan hiển thị chi tiết các lựa chọn c�
 
 - Đối với **Partial upfront**
 
-![Saving Plans](/images/1/0002.png?featherlight=false&width=90pc)
+![Saving Plans](/images/1/0003.png?featherlight=false&width=90pc)
 
 - Đối với **No upfront**
 
-![Saving Plans](/images/1/0003.png?featherlight=false&width=90pc)
+![Saving Plans](/images/1/0002.png?featherlight=false&width=90pc)
 
 
 
