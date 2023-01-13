@@ -76,4 +76,70 @@ To start paying for the Savings Plans recommended on the Recommendations page, t
 - At the Cart page, review the order and then click **Submit order**.
 
 #### Pay Savings Plan on Purchase Savings Plans page
-To pay **Saving
+To pay **Savings Plan for EC2 Instance**:
+- Access the AWS Cost Management console at https://console.aws.amazon.com/cost-management/home
+
+- In the left navigation pane, under **Savings Plans**, select **Purchase Savings Plans**.
+- Under **Savings Plans type**, select **EC2 Instance**.
+- Select the Term **Term**, the area **Region**, and then choose the last name Instance or **Instance Family**.
+- In the **Hourly commitment** section, enter the SP run time
+- Select payment type **Payment option**.
+- If payment method **Partial Upfront** is selected, enter the amount to be paid in advance for SP.
+- (Optional) To put the Savings Plan on the waiting list to run the Savings plan in the future, make the **Start date** setting.
+- Select **Add to cart**.
+- On the Cart page, review the order, then select Submit order.
+
+To pay **Savings Plan for Compute**:
+- Access the AWS Cost Management console at https://console.aws.amazon.com/cost-management/home
+
+- In the left navigation pane, under **Savings Plans**, select **Purchase Savings Plans**.
+- Under **Savings Plans type**, select **Compute**.
+- Select term **Term**.
+- In the **Hourly commitment** section, enter the SP runtime.
+- Select payment type **Payment option**.
+- If you choose to pay **Partial Upfront**, enter the amount to be paid in advance for SP.
+- (Optional) To put the Savings Plan on the waiting list to run the Savings plan in the future, make the **Start date** setting.
+- Select **Add to cart**.
+- On the Cart page, review the order, then select **Submit order**.
+
+#### Put SP on the waiting list in Cart page
+You can waitlist or schedule a Savings Plan payment. The date of activation of the savings plan can be exact to the second. Any upfront or recurring fees are charged only when the SP in the queue is activated on the selected date.
+You can cancel or remove this waitlisted SP any time before the start date.
+
+To put SP on the payment waiting list, we perform the following steps:
+- Access the AWS Cost Management console at https://console.aws.amazon.com/cost-management/home
+
+- Add Savings Plans from **Purchase Savings Plans** or **Recommendations** page.
+- From the left navigation pane, under **Savings Plans**, select **Cart**
+- Select **Savings Plans**.
+- Select **Set start date**.
+- Select the date and time to run SP.
+- Click **Confirm**.
+- Click **Submit order**.
+
+#### Review and complete the payment on the Cart page
+Savings Plans shopping cart will keep commitments until you make the payment.
+To make a review and complete the payment from the Cart Cart page, follow these steps in turn:
+- Access the AWS Cost Management console at https://console.aws.amazon.com/cost-management/home
+
+- In the right navigation pane, under **Savings Plans**, select **Cart**.
+- Review the content according to the information below:
+- **Type**: Savings Plan type.
+
+- **Term**: commitment period in years. Choose 1-year or 3-years term.
+- **Region**: (only suitable for EC2 Instance Savings Plans) type of Region that you commit to use.
+- **Instance Family**: instance family (for example, M5, C5, R5, C5d, etc.) that you commit to use.
+- **Purchase option**: payment options. Options include All Upfront, Partial Upfront, or No Upfront.
+- **Start date**: determine the committed payment date and time. Default payment date is right at the time of order creation (Now).
+- **Commitment**: hourly commitment associated with Savings Plan and term.
+- **Upfront payment**: choose to prepay part or all of your order based on the payment option above.
+- **Monthly payment**: monthly payment for Savings Plans.
+- **Total cost**: total cost for the commitment level of Savings Plan package. It includes upfront costs and monthly recurring payments throughout the term of use.
+- Review the content in the Summary section:
+- **Total Commitment**: total cost for all Savings Plans currently in the cart, regardless of the start date or payment method.
+
+- **Total upfront payment due now**: Total upfront payment for Savings Plan with start date set Now.
+- Remove a Savings Plan from the Cart by selecting each item and then clicking **Remove from cart**.
+- To start over, and delete all items in the cart, click **Clear cart**.
+- To add a new commitment, click **Add another Savings Plan**.
+- Make payment, click **Submit order**.

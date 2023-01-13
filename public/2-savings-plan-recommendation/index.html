@@ -12,21 +12,21 @@
     <title>Savings Plans Recommendation :: AWS Cloudformation Workshop</title>
 
     
-    <link href="/css/nucleus.css?1673617032" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1673617032" rel="stylesheet">
-    <link href="/css/hybrid.css?1673617032" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1673617032" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1673617032" rel="stylesheet">
-    <link href="/css/auto-complete.css?1673617032" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1673617032" rel="stylesheet">
-    <link href="/css/theme.css?1673617032" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1673617032" rel="stylesheet">
+    <link href="/css/nucleus.css?1673642975" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1673642975" rel="stylesheet">
+    <link href="/css/hybrid.css?1673642975" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1673642975" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1673642975" rel="stylesheet">
+    <link href="/css/auto-complete.css?1673642975" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1673642975" rel="stylesheet">
+    <link href="/css/theme.css?1673642975" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1673642975" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1673617032" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1673642975" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1673617032"></script>
+    <script src="/js/jquery-3.3.1.min.js?1673642975"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1673617032"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1673617032"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1673642975"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1673642975"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1673617032"></script>
+<script type="text/javascript" src="/js/search.js?1673642975"></script>
 
     
   </div>
@@ -637,7 +637,167 @@ This value represents the Basic Spend for a month of On-Demand usage, based on p
 </li>
 </ul>
 <h4 id="pay-savings-plan-on-purchase-savings-plans-page">Pay Savings Plan on Purchase Savings Plans page</h4>
-<p>To pay **Saving</p>
+<p>To pay <strong>Savings Plan for EC2 Instance</strong>:</p>
+<ul>
+<li>
+<p>Access the AWS Cost Management console at <a href="https://console.aws.amazon.com/cost-management/home">https://console.aws.amazon.com/cost-management/home</a></p>
+</li>
+<li>
+<p>In the left navigation pane, under <strong>Savings Plans</strong>, select <strong>Purchase Savings Plans</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Savings Plans type</strong>, select <strong>EC2 Instance</strong>.</p>
+</li>
+<li>
+<p>Select the Term <strong>Term</strong>, the area <strong>Region</strong>, and then choose the last name Instance or <strong>Instance Family</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Hourly commitment</strong> section, enter the SP run time</p>
+</li>
+<li>
+<p>Select payment type <strong>Payment option</strong>.</p>
+</li>
+<li>
+<p>If payment method <strong>Partial Upfront</strong> is selected, enter the amount to be paid in advance for SP.</p>
+</li>
+<li>
+<p>(Optional) To put the Savings Plan on the waiting list to run the Savings plan in the future, make the <strong>Start date</strong> setting.</p>
+</li>
+<li>
+<p>Select <strong>Add to cart</strong>.</p>
+</li>
+<li>
+<p>On the Cart page, review the order, then select Submit order.</p>
+</li>
+</ul>
+<p>To pay <strong>Savings Plan for Compute</strong>:</p>
+<ul>
+<li>
+<p>Access the AWS Cost Management console at <a href="https://console.aws.amazon.com/cost-management/home">https://console.aws.amazon.com/cost-management/home</a></p>
+</li>
+<li>
+<p>In the left navigation pane, under <strong>Savings Plans</strong>, select <strong>Purchase Savings Plans</strong>.</p>
+</li>
+<li>
+<p>Under <strong>Savings Plans type</strong>, select <strong>Compute</strong>.</p>
+</li>
+<li>
+<p>Select term <strong>Term</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Hourly commitment</strong> section, enter the SP runtime.</p>
+</li>
+<li>
+<p>Select payment type <strong>Payment option</strong>.</p>
+</li>
+<li>
+<p>If you choose to pay <strong>Partial Upfront</strong>, enter the amount to be paid in advance for SP.</p>
+</li>
+<li>
+<p>(Optional) To put the Savings Plan on the waiting list to run the Savings plan in the future, make the <strong>Start date</strong> setting.</p>
+</li>
+<li>
+<p>Select <strong>Add to cart</strong>.</p>
+</li>
+<li>
+<p>On the Cart page, review the order, then select <strong>Submit order</strong>.</p>
+</li>
+</ul>
+<h4 id="put-sp-on-the-waiting-list-in-cart-page">Put SP on the waiting list in Cart page</h4>
+<p>You can waitlist or schedule a Savings Plan payment. The date of activation of the savings plan can be exact to the second. Any upfront or recurring fees are charged only when the SP in the queue is activated on the selected date.
+You can cancel or remove this waitlisted SP any time before the start date.</p>
+<p>To put SP on the payment waiting list, we perform the following steps:</p>
+<ul>
+<li>
+<p>Access the AWS Cost Management console at <a href="https://console.aws.amazon.com/cost-management/home">https://console.aws.amazon.com/cost-management/home</a></p>
+</li>
+<li>
+<p>Add Savings Plans from <strong>Purchase Savings Plans</strong> or <strong>Recommendations</strong> page.</p>
+</li>
+<li>
+<p>From the left navigation pane, under <strong>Savings Plans</strong>, select <strong>Cart</strong></p>
+</li>
+<li>
+<p>Select <strong>Savings Plans</strong>.</p>
+</li>
+<li>
+<p>Select <strong>Set start date</strong>.</p>
+</li>
+<li>
+<p>Select the date and time to run SP.</p>
+</li>
+<li>
+<p>Click <strong>Confirm</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Submit order</strong>.</p>
+</li>
+</ul>
+<h4 id="review-and-complete-the-payment-on-the-cart-page">Review and complete the payment on the Cart page</h4>
+<p>Savings Plans shopping cart will keep commitments until you make the payment.
+To make a review and complete the payment from the Cart Cart page, follow these steps in turn:</p>
+<ul>
+<li>
+<p>Access the AWS Cost Management console at <a href="https://console.aws.amazon.com/cost-management/home">https://console.aws.amazon.com/cost-management/home</a></p>
+</li>
+<li>
+<p>In the right navigation pane, under <strong>Savings Plans</strong>, select <strong>Cart</strong>.</p>
+</li>
+<li>
+<p>Review the content according to the information below:</p>
+</li>
+<li>
+<p><strong>Type</strong>: Savings Plan type.</p>
+</li>
+<li>
+<p><strong>Term</strong>: commitment period in years. Choose 1-year or 3-years term.</p>
+</li>
+<li>
+<p><strong>Region</strong>: (only suitable for EC2 Instance Savings Plans) type of Region that you commit to use.</p>
+</li>
+<li>
+<p><strong>Instance Family</strong>: instance family (for example, M5, C5, R5, C5d, etc.) that you commit to use.</p>
+</li>
+<li>
+<p><strong>Purchase option</strong>: payment options. Options include All Upfront, Partial Upfront, or No Upfront.</p>
+</li>
+<li>
+<p><strong>Start date</strong>: determine the committed payment date and time. Default payment date is right at the time of order creation (Now).</p>
+</li>
+<li>
+<p><strong>Commitment</strong>: hourly commitment associated with Savings Plan and term.</p>
+</li>
+<li>
+<p><strong>Upfront payment</strong>: choose to prepay part or all of your order based on the payment option above.</p>
+</li>
+<li>
+<p><strong>Monthly payment</strong>: monthly payment for Savings Plans.</p>
+</li>
+<li>
+<p><strong>Total cost</strong>: total cost for the commitment level of Savings Plan package. It includes upfront costs and monthly recurring payments throughout the term of use.</p>
+</li>
+<li>
+<p>Review the content in the Summary section:</p>
+</li>
+<li>
+<p><strong>Total Commitment</strong>: total cost for all Savings Plans currently in the cart, regardless of the start date or payment method.</p>
+</li>
+<li>
+<p><strong>Total upfront payment due now</strong>: Total upfront payment for Savings Plan with start date set Now.</p>
+</li>
+<li>
+<p>Remove a Savings Plan from the Cart by selecting each item and then clicking <strong>Remove from cart</strong>.</p>
+</li>
+<li>
+<p>To start over, and delete all items in the cart, click <strong>Clear cart</strong>.</p>
+</li>
+<li>
+<p>To add a new commitment, click <strong>Add another Savings Plan</strong>.</p>
+</li>
+<li>
+<p>Make payment, click <strong>Submit order</strong>.</p>
+</li>
+</ul>
 
 
 
@@ -850,19 +1010,19 @@ This value represents the Basic Spend for a month of On-Demand usage, based on p
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1673617032"></script>
-    <script src="/js/perfect-scrollbar.min.js?1673617032"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1673617032"></script>
-    <script src="/js/jquery.sticky.js?1673617032"></script>
-    <script src="/js/featherlight.min.js?1673617032"></script>
-    <script src="/js/highlight.pack.js?1673617032"></script>
+    <script src="/js/clipboard.min.js?1673642975"></script>
+    <script src="/js/perfect-scrollbar.min.js?1673642975"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1673642975"></script>
+    <script src="/js/jquery.sticky.js?1673642975"></script>
+    <script src="/js/featherlight.min.js?1673642975"></script>
+    <script src="/js/highlight.pack.js?1673642975"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1673617032"></script>
-    <script src="/js/learn.js?1673617032"></script>
-    <script src="/js/hugo-learn.js?1673617032"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1673642975"></script>
+    <script src="/js/learn.js?1673642975"></script>
+    <script src="/js/hugo-learn.js?1673642975"></script>
 
-    <link href="/mermaid/mermaid.css?1673617032" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1673617032"></script>
+    <link href="/mermaid/mermaid.css?1673642975" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1673642975"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
