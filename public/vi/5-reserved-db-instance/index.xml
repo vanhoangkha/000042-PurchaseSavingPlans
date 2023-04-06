@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reserved DB Instances on AWS Cloudformation Workshop</title>
+    <title>Reserved DB Instances on SAVINGS PLAN, RESERVED INSTANCE VÀ RESERVED DB INSTANCE</title>
     <link>/vi/5-reserved-db-instance/</link>
-    <description>Recent content in Reserved DB Instances on AWS Cloudformation Workshop</description>
+    <description>Recent content in Reserved DB Instances on SAVINGS PLAN, RESERVED INSTANCE VÀ RESERVED DB INSTANCE</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/vi/5-reserved-db-instance/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
