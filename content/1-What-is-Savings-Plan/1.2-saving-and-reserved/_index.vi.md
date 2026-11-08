@@ -15,14 +15,14 @@ SP cho phép bạn lựa chọn các loại Instance sao cho phù hợp nhất v
 |  Comparing Savings Plans và RIs                                                            |      Compute Savings Plans     |      EC2 Instance Savings Plans     |      Convertible RIs*     |      Standard RIs     |
 |--------------------------------------------------------------------------------------------|--------------------------------|-------------------------------------|---------------------------|-----------------------|
 | Tiết kiệm so với On-Demand                                                                 |     Lên đến 66%                |     Lên đến 72%                     |     Lên đến 66%           |     Lên đến 72%       |
-| Giá thấp hơn với các kiểu cam kết thanh toán                                               |     ✓                          |     ✓                               |     —                     |     —                 |
-| Tự động áp dụng chi phí tiết kiệm cho mọi Instance thuộc cùng họ                           |     ✓                          |     —                               |     ✓                     |     —                 |
-| Tư động áp dụng chi phí tiết kiệm cho mọi kích thước Instance                              |     ✓                          |     ✓                               |     ✓                     |     ✓               |
-| Tự động áp dụng chi phí tiết kiệm cho mọi hệ điều hành và mọi kiểu tenancy của Instance    |     ✓                          |     ✓                               |     ✓                     |     ✓                 |
-| Tự động áp dụng chi phí tiết kiệm đối với Amazon ECS sử dụng Fargate                       |     ✓                          |     —                               |     —                     |     —                 |
-| Tự động áp dụng chi phí tiết kiệm khi sử dụng dịch vụ Lambda                               |     ✓                          |     —                               |     —                     |     —                 |
-| Tự động áp dụng chi phí tiết kiệm trên tất cả các AWS Regions                              |     ✓                          |     —                               |     —                     |     —                 |
-| Tùy chọn thời hạn áp dụng chi phí tiết kiệm từ 1 tới 3 năm                                 |     ✓                          |     ✓                               |     ✓                     |     ✓                 |
+| Giá thấp hơn với các kiểu cam kết thanh toán                                               |     Yes                          |     Yes                               |     —                     |     —                 |
+| Tự động áp dụng chi phí tiết kiệm cho mọi Instance thuộc cùng họ                           |     Yes                          |     —                               |     Yes                     |     —                 |
+| Tư động áp dụng chi phí tiết kiệm cho mọi kích thước Instance                              |     Yes                          |     Yes                               |     Yes                     |     Yes               |
+| Tự động áp dụng chi phí tiết kiệm cho mọi hệ điều hành và mọi kiểu tenancy của Instance    |     Yes                          |     Yes                               |     Yes                     |     Yes                 |
+| Tự động áp dụng chi phí tiết kiệm đối với Amazon ECS sử dụng Fargate                       |     Yes                          |     —                               |     —                     |     —                 |
+| Tự động áp dụng chi phí tiết kiệm khi sử dụng dịch vụ Lambda                               |     Yes                          |     —                               |     —                     |     —                 |
+| Tự động áp dụng chi phí tiết kiệm trên tất cả các AWS Regions                              |     Yes                          |     —                               |     —                     |     —                 |
+| Tùy chọn thời hạn áp dụng chi phí tiết kiệm từ 1 tới 3 năm                                 |     Yes                          |     Yes                               |     Yes                     |     Yes                 |
 
 
 Như vậy so với Reserved Instance thì AWS Saving Plans có những lợi thế đó là:
